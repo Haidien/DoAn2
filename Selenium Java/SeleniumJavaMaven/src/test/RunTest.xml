@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1">
+    <parameter name="browserType" value="chorme"></parameter>
+    <parameter name="URL" value="https://localhost:44393/admin/adminlogin"></parameter>
+    <test name="ThemTheLoaiHang">
+        <classes>
+            <class name="Testcases.ThemTheLoaiHangTest">
+<!--                <methods>-->
+<!--                    <include name="TTLH_05"/>-->
+<!--                </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>
